@@ -148,7 +148,7 @@ button:active {
 }
 
 .divider::before,
-.divider::before{
+.divider::after{
     content: '';
     flex: 1;
     height: 1px;
@@ -161,7 +161,7 @@ button:active {
     font-size: 0.05rem;
 }
 
-.social login {
+.social-login {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -169,8 +169,8 @@ button:active {
 }
 
 .social-btn {
-    color: var(--text-primary)
-    text-decoration:none;
+    color: var(--text-primary);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
