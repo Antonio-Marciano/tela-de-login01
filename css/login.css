@@ -90,3 +90,10 @@ input::placeholder {
 .forgot-password a:hover {
     content: var(--primary-color)
 }
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:  1.5rem;
+}
