@@ -169,6 +169,7 @@ button:active {
 }
 
 .social-btn {
+    color: var(--text-primary)
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,6 +187,4 @@ button:active {
     transform: translateY(-5px);
 }
 
-.social-btn a{
-    text-decoration: none;
-}
+.
