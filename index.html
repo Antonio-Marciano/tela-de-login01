@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-">
+
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="description" content="Pagina de login
     segura e elegante">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,57 +11,58 @@
     <title>Login | Minha Plataforma</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <main class><"login-container">
-    <header>
-        <h1>Bem vindo</h1>
-        <p>Entre com suas credenciais para acessar</p>
-    </header>
+    <main class="login-container">
+        <header>
+            <h1>Bem vindo</h1>
+            <p>Entre com suas credenciais para acessar</p>
+        </header>
 
-    <form action="/login" method="POST">
-        <div class="form-group">
-            <label for="email">Email ou Usuario</label>
-            <div class="Input-group">
-                <Input type="email"  id="email"  nome="email"  placeholder="Seu
-                email ou nome de usuario"  required autofocus>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Email ou Usuario</label>
+                <div class="Input-group">
+                    <Input type="email" id="email" nome="email" placeholder="Seu
+                email ou nome de usuario" required autofocus>
+                </div>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="password">password</label>
-            <div class="Input-group">
-                <Input type="password"  id="password"  nome="password" 
-                 placeholder="Senha" required>
+            <div class="form-group">
+                <label for="password">password</label>
+                <div class="Input-group">
+                    <Input type="password" id="password" nome="password" placeholder="Senha" required>
+                </div>
             </div>
-        </div>
 
-        <div class="forgot-password">
-            <a href="/recuperar-senha">Esqueceu sua senha?</a>
-        </div>
-
-        <div class="options">
-            <div class="remember-me">
-                <input type="checkbox"  id="remember"  name="remember">
-                <label for="remember">Lembrar-me</label>
+            <div class="forgot-password">
+                <a href="/recuperar-senha">Esqueceu sua senha?</a>
             </div>
+
+            <div class="options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Lembrar-me</label>
+                </div>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <div class="divider">
+            <span>Ou continue com</span>
         </div>
 
-        <button type="submit">Entrar</button>
-    </form>
+        <div class="social-login">
+            <a href="#" class="social-btn" aria-label="Entrar com google">G</a>
+            <a href="#" class="social-btn" aria-label="Entrar em facebook">F</a>
+            <a href="#" class="social-btn" aria-label="Entrar com apple">A</a>
+        </div>
 
-    <div class="divider">
-        <span>Ou continue com</span>
-    </div>
-
-    <div class="social-login">
-        <a href="#" class="social-btn" aria-label="Entrar com google">G</a>
-        <a href="#" class="social-btn" aria-label="Entrar em facebook">F</a>
-        <a href="#" class="social-btn" aria-label="Entrar com apple">A</a>
-    </div>
-
-    <div class="singup-link">
-        Nao tem uma conta?  <a href="/cadastro">Criar Conta</a>
-    </div>
+        <div class="singup-link">
+            Nao tem uma conta? <a href="/cadastro">Criar Conta</a>
+        </div>
 
     </main>
 </body>
+
 </html>
