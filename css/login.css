@@ -186,3 +186,6 @@ button:active {
     transform: translateY(-5px);
 }
 
+.social-btn a{
+    text-decoration: none;
+}
